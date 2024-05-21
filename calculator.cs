@@ -6,7 +6,7 @@ namespace BadCalculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Bad Calculator!");
+            Console.WriteLine("Welcome to my Calculator!");
             Console.WriteLine("Enter the first number:");
             string input1 = Console.ReadLine();
             int number1 = int.Parse(input1);
@@ -33,7 +33,7 @@ namespace BadCalculator
             }
             else if (operation == "/")
             {
-                result = number1 / number2; // This will crash if number2 is 0
+                result = number1 / number2;
             }
             else
             {
